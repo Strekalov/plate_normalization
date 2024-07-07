@@ -1,0 +1,20 @@
+services:
+  keypoints_detector:
+    model_path: 'weights/yolov8_keypoints.pt'
+    image_size: 640
+    conf: 0.5
+  
+  letters_detector:
+    model_path: 'weights/yolov10_letters_detector.pt'
+    image_size: 640
+    conf: 0.3 
+  
+  plate_normalizer_v2:
+    template_two_digits_path: 'templates/two_digits_region_rus.json'
+    template_three_digits_path: 'templates/three_digits_region_rus.json'
+
+  beeline_ocr:
+    model_path: 'weights/resnet18_letters.pth'
+    image_size: 64
+    template_two_digits_path: 'templates/two_digits_region_rus.json'
+    template_three_digits_path: 'templates/three_digits_region_rus.json'

@@ -1,0 +1,9 @@
+__pycache__/
+.mypy
+.ruff_cache
+*.log
+*.py[cod]
+*.engine
+*.onnx
+.env
+.DS_Store

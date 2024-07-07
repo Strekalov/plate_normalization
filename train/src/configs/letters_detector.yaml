@@ -1,0 +1,29 @@
+train: ['/home/powned/projects/plates_recognition/datasets/mtuci-vkr2/train/images',
+'/home/powned/projects/plates_recognition/datasets/car-plates-text_new/output_data/train/images',
+'/home/powned/projects/plates_recognition/datasets/plate-9bie5/train/images',
+'/home/powned/projects/plates_recognition/datasets/plates-3tori/train/images',
+'/home/powned/projects/plates_recognition/datasets/russian-car-plate-letters/train/images',
+'/home/powned/projects/plates_recognition/datasets/russian-license-plate-characters-detector/train/images',
+'/home/powned/projects/plates_recognition/datasets/car-plates-text_new/output_data/train/images']
+
+val: ['/home/powned/projects/plates_recognition/datasets/car-plates-text_new/output_data/valid/images',
+'/home/powned/projects/plates_recognition/datasets/mtuci-vkr2/valid/images',
+'/home/powned/projects/plates_recognition/datasets/plate-9bie5/valid/images',
+'/home/powned/projects/plates_recognition/datasets/plates-3tori/valid/images',
+'/home/powned/projects/plates_recognition/datasets/russian-car-plate-letters/valid/images',
+'/home/powned/projects/plates_recognition/datasets/russian-license-plate-characters-detector/valid/images',
+'/home/powned/projects/plates_recognition/datasets/car-plates-text_new/output_data/valid/images',
+]
+
+test: ['/home/powned/projects/plates_recognition/datasets/car-plates-text_new/output_data/test/images',
+'/home/powned/projects/plates_recognition/datasets/mtuci-vkr2/test/images',
+'/home/powned/projects/plates_recognition/datasets/plate-9bie5/test/images',
+'/home/powned/projects/plates_recognition/datasets/plates-3tori/test/images',
+'/home/powned/projects/plates_recognition/datasets/russian-car-plate-letters/test/images',
+'/home/powned/projects/plates_recognition/datasets/russian-license-plate-characters-detector/test/images',
+'/home/powned/projects/plates_recognition/datasets/car-plates-text_new/output_data/test/images'
+]
+
+
+names:
+  0: letter

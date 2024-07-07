@@ -1,0 +1,9 @@
+dependency_injector==4.41.0
+fastapi==0.111.0
+omegaconf==2.3.0
+opencv-python==4.7.0.72
+opencv-python-headless==4.7.0.72
+
+PyTurboJPEG==1.7.3
+ultralytics==8.2.50
+uvicorn==0.30.1
